@@ -9,5 +9,5 @@ int main() {
     int n;
     char brr[50];
     scanf("%s %d %s",&arr,&n,&brr);
-    printf("Name: %s\nAge:%d\nHobby: %s",arr,n,brr);
+    printf("Name: %s\nAge: %d\nHobby: %s",arr,n,brr);
 }

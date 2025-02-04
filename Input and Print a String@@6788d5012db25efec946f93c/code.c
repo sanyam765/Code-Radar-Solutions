@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
-    char arr[7];
-    scanf("%c",&arr[7]);
-    printf("%c",arr[7]);
+    char arr[];
+    scanf("%c",&arr[]);
+    printf("%c",arr[]);
 
 
 

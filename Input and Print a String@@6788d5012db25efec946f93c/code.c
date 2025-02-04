@@ -1,11 +1,8 @@
 #include <stdio.h>
-int main(){
+int main()
+{
     char arr[100];
-    scanf("%c",&arr);
-    printf("%c",arr);
-
-
-
-
+    scanf("%s",&arr);
+    printf("%s",arr);
     return 0;
 }

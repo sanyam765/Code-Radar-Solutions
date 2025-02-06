@@ -20,4 +20,5 @@ int main() {
     else{
      printf("E");
     }
+    return 0;
 }

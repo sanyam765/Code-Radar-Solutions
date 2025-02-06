@@ -17,8 +17,8 @@ int main() {
     printf("D");
    
    }
-    else{
-     printf("E");
+    else if(n<60){
+     printf("F");
     }
     return 0;
 }

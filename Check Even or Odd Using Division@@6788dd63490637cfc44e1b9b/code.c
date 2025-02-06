@@ -6,8 +6,8 @@ int main() {
     if(n%2==0){
         printf("Even");
     }
-    else{
-        printf("Loss");
+    else if(n%3==0){
+        printf("Odd");
     }
     return 0;
 }

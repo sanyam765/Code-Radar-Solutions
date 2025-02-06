@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
  int n;
-  else if(n%400==0){
+  if(n%400==0){
     printf("Leap Year");
  }
  else if(n%100==0){

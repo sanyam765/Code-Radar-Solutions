@@ -15,8 +15,9 @@ int main() {
    }
    else if(n>=60 && <70){
     printf("D");
+   
+   }
     else{
      printf("F");
     }
-   }
 }

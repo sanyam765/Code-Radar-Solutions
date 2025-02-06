@@ -5,6 +5,6 @@
 int main() {
     int x;
     scanf("%d",&x);
-    char ch = (char)x;
+    int ch = (char)x;
     printf("%c",ch);
 }

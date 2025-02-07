@@ -5,10 +5,8 @@
 int main() {
     int n;
     scanf("%d",&n);
-    if(n==0){
-        printf("Invalid");
-    }
-    else if(n==1){
+  
+    if(n==1){
         printf("Monday");
     }    
     else if(n==2){
@@ -27,7 +25,7 @@ int main() {
         printf("Saturday");
     }
     else{
-        printf("Sunday");
+        printf("Invalid");
     }
     return 0;
 }

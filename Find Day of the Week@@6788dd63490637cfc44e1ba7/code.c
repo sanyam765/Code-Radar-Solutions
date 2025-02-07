@@ -6,7 +6,7 @@ int main() {
     int n;
     scanf("%d",&n);
     if(n==0){
-        printf("Sunday");
+        printf("Invalid");
     }
     else if(n==1){
         printf("Monday");

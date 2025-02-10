@@ -14,8 +14,9 @@ int main() {
         for(int k=1;k<=nst;k++){
             printf("*");
         }
+           printf("\n");
          nst = nst + 2;
-        printf("\n");
+     
     }
    
     return 0;

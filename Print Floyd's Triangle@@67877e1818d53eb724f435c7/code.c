@@ -8,8 +8,9 @@ for(int i=1;i<=n;i++){
         printf("%d ",a);
     }
     printf("\n");
-    a++;
+    
 }
+a++;
 
 
 

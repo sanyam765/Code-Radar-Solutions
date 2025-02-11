@@ -12,10 +12,10 @@ int main() {
             printf(" ");
         }
         for(int k=1;k<=nst;k++){
-            printf("%d",k);
+            printf("%d ",k);
         }
         printf("\n");
-        nst = nst + 2;
+        nst = nst++;
     }
    
     return 0;

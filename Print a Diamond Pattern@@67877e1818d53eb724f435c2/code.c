@@ -20,7 +20,7 @@ int main() {
     nsp--;
     nst = nst + 2;
  }
- else{
+ else if(i>ml){
     nst = nst -2;
     nsp++;
  }

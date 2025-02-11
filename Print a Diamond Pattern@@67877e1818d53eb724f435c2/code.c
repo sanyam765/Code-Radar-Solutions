@@ -7,8 +7,8 @@ int main() {
  scanf("%d",&n);
  int nst = 1;
  int nsp = 3;
- int ml = (n/2)+1;
- for(int i=1;i<=n+2;i++){
+ int ml = (n*2)-1;
+ for(int i=1;i<=n;i++){
     for(int j=1;j<=nsp;j++){
         printf(" ");
     }

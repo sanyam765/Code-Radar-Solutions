@@ -14,6 +14,7 @@ int main() {
             printf("*");
         }
         printf("\n");
+        nst = nst + 2;
     }
    
     return 0;

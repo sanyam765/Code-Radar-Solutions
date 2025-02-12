@@ -17,4 +17,5 @@ else if(n>='0' && n<='9'){
 else{
     printf("Special character");
 }
+return 0;
 }

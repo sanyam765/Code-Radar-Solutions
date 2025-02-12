@@ -8,14 +8,14 @@ if(n='a'||n='e'||n='i'||n='o'||n='u'){
 else if(n='A'||n='E'||n='I'||n='O'||n='U'){
     printf("Vowel");
 }
-else if(n>='a' && n<='z'   || n>='A' && n<='Z'  ){
+else if(n>='a' && n<='z'  || n>='A' && n<='Z'  ){
     printf("Consonant");
 }
 else if(n>='0' && n<='9'){
     printf("Digit");
 }
 else{
-    printf("Special character");
+    printf("Special Character");
 }
 return 0;
 }

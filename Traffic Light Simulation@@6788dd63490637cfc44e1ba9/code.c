@@ -5,7 +5,7 @@ int main(){
     if(ch == 'R'){
         printf("Stop");
     }
-    else if(ch=='R'){
+    else if(ch=='G'){
         printf("Go");
     }
     else if(ch=='Y'){

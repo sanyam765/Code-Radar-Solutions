@@ -1,15 +1,16 @@
 #include<stdio.h>
 int main(){
-    int n,m;
+    float n,m;
     char ch;
-    scanf("%d %d %c",&n,&m,&ch);
+    scanf("%f %f %c",&n,&m,&ch);
     if(ch=='+'){
         printf("%d",n+m);
     }
     else if(ch=='-'){
         printf("%d",n-m);
     }
-    else{
+    else if(n!=0 || m!=0){
+    
         printf("%d",n/m);
     }
 

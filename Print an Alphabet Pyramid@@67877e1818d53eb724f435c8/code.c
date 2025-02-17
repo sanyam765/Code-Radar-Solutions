@@ -10,9 +10,10 @@ int main() {
         int a =1;
     
         for(int k=1;k<=i;k++){
+            
             int d = a+ 64;
             char ch = char(d);
-            printf("%c",ch);
+            printf("%c ",ch);
             a++;
         }
         printf("\n");

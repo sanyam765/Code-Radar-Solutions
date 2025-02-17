@@ -1,23 +1,23 @@
 #include<stdio.h>
 int main(){
-    float n,m;
+    int n,m;
     char ch;
-    scanf("%f %f %c",&n,&m,&ch);
+    scanf("%d %d %c",&n,&m,&ch);
     if(ch=='+'){
-        printf("%.2f",n+m);
+        printf("%d",n+m);
     }
     else if(ch=='-'){
-        printf("%f",n-m);
+        printf("%d",n-m);
     }
     else if(ch=='*'){
-        printf("%f",n*m);
+        printf("%d",n*m);
     }
     else if(ch=='/'){
         if(n==0 || m==0){
             printf("error");
         }
         else{
-            printf("%f",n/m);
+            printf("%d",n/m);
         }
         
     }

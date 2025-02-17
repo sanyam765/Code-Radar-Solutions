@@ -11,8 +11,8 @@ int main() {
     
         for(int k=1;k<=i;k++){
             int d = a+ 64;
-            char ch = (char)d;
-            printf("%c ",ch);
+            char ch = char(d);
+            printf("%c",ch);
             a++;
         }
         printf("\n");

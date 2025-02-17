@@ -14,7 +14,7 @@ int main(){
     }
     else if(ch=='/'){
         if(n==0 || m==0){
-            printf("erro");
+            printf("error");
         }
         else{
             printf("%d",n/m);

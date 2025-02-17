@@ -1,11 +1,8 @@
 #include<stdio.h>
 int main(){
-    int n;
-    scanf("%d",&n);
-    int m;
-    scanf("%d",&m);
+    int n,m;
     char ch;
-    scanf(" %c",&ch);
+    scanf("%d %d %c",&n,&m,&ch);
     if(ch=='+'){
         printf("%d",n+m);
     }

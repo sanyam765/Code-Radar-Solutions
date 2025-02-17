@@ -13,9 +13,10 @@ int main(){
         printf("%d",n-m);
     }
     else{
-        printf("%d",n/m)
+        printf("%d",n/m);
     }
 
+}
 
 
 

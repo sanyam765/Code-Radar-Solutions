@@ -5,7 +5,7 @@ int main(){
     int m;
     scanf("%d",&m);
     char ch;
-    scanf("%c",&ch);
+    scanf(" %c",&ch);
     if(ch=='+'){
         printf("%d",n+m);
     }

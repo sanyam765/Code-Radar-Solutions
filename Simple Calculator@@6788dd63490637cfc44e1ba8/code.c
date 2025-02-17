@@ -9,7 +9,10 @@ int main(){
     else if(ch=='-'){
         printf("%d",n-m);
     }
-    else if(n!=0 || m!=0){
+    else if(ch=='*'){
+        printf("%d",n*m);
+    }
+    else if(n!=0 && m!=0){
     
         printf("%d",n/m);
     }
@@ -26,5 +29,4 @@ int main(){
 
 
 
-    return 0;
-}
+    

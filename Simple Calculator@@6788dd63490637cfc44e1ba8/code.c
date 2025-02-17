@@ -4,7 +4,7 @@ int main(){
     char ch;
     scanf("%f %f %c",&n,&m,&ch);
     if(ch=='+'){
-        printf("%f",n+m);
+        printf("%.2f",n+m);
     }
     else if(ch=='-'){
         printf("%f",n-m);

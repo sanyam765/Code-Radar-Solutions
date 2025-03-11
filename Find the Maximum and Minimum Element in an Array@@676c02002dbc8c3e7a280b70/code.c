@@ -17,5 +17,5 @@ for(int i=0;i<n;i++){
         min = arr[i];
     }
 }
-printf("%d %d",max,min);
+printf("%d %d",min,max);
 }

@@ -25,7 +25,7 @@ int main(){
     
     }
     if(n == 1 || con == 1){
-        printf(-1);
+        printf("-1");
     }
     else{
     printf("%d",smax);}

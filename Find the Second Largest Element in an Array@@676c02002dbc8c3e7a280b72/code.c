@@ -8,6 +8,7 @@ int main(){
         scanf("%d ",&arr[i]);
         if(arr[i]!=arr[i+1] && i<n-1){
             con = 0;
+            break;
         }
     }
     int max = arr[0];

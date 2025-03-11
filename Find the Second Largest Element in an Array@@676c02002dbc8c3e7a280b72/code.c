@@ -18,5 +18,5 @@ for(int i=0;i<n;i++){
         break;
     }
 }
-printf("%d %d",secmax);
+printf("%d",secmax);
 }

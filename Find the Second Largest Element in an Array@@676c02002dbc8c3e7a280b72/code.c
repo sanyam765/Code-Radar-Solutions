@@ -6,6 +6,9 @@ int main(){
     int con = 1;
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
+        
+    }
+    for(int i = 0; i<n;i++){
         if(arr[i]!=arr[i+1] && i<n-1){
             con = 0;
             break;

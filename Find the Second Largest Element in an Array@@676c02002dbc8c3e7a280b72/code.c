@@ -13,7 +13,7 @@ for(int i=0;i<n;i++){
     if(max<arr[i]){
         max = arr[i];
     }
-    else if(secmax<max){
+    else if(secmax>ax){
         secmax = max;
         break;
     }

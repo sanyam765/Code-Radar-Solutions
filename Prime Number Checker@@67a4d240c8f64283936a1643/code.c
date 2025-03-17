@@ -15,15 +15,14 @@ int isPrime(int b){
     return 1;
 }
 int main(){
-    int n;
-    scanf("%d",&n);
-    int b;
-    for(int i=1;i<=n;i++){
-        
-        scanf("%d",&b);
-        isPrime(b);
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        int num;
+        scanf("%d",&num);
         printf("The output is %d\n",isPrime);
     }
+    
 
 
     return 0;

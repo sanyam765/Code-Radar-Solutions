@@ -2,7 +2,7 @@
 void rotate(int arr[],int si,int ei){
     for(int i=si,j=ei;i<j;i++,j--){
         int temp = arr[i];
-        arrr[i]=arr[j];
+        arr[i]=arr[j];
         arr[j]= temp;
     }
     return;

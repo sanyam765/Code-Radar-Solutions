@@ -1,18 +1,4 @@
 #include<stdio.h>
-
-int main(){
-    int t;
-    scanf("%d",&t);
-    while(t--){
-        int num;
-        scanf("%d",&num);
-        printf("The output is %d\n",isPrime);
-    }
-
-
-
-    return 0;
-}
 int isPrime(int b){
     if(b<=1){
         return 0;
@@ -27,4 +13,17 @@ int isPrime(int b){
         
     }
     return 1;
+}
+int main(){
+    int t;
+    scanf("%d",&t);
+    while(t--){
+        int num;
+        scanf("%d",&num);
+        printf("The output is %d\n",isPrime(num));
+    }
+
+
+
+    return 0;
 }

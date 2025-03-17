@@ -15,11 +15,11 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int k;
-    scanf("%d",&k)
+    scanf("%d",&k);
     rotate(arr,0,n-1);
     rotate(arr,0,k-1);
     rotate(arr,k,n-1);
     for(int j=0;j<n;j++){
-        scanf("%d"arr[j]);
+        scanf("%d",arr[j]);
     }
 }

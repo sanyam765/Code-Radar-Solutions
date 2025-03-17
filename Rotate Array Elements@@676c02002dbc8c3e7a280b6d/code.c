@@ -20,6 +20,6 @@ int main(){
     rotate(arr,0,k-1);
     rotate(arr,k,n-1);
     for(int j=0;j<n;j++){
-        printf("%d",arr[j]);
+        printf("%d\n",arr[j]);
     }
 }

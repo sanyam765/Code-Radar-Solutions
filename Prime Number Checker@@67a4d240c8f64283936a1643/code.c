@@ -1,15 +1,18 @@
 #include<stdio.h>
 int isprime(int b){
-    for(int i=2;i<=b-1;i++){
-        if(i%2!=0){
-            return 1
-            break;
-        }
-        else{
-            return 0
-            break;
-        }
+    if(b<=1){
+        return 0;
     }
+    if(b==1){
+        return 1;
+    }
+    for(int i=2;i<=b-1;i++){
+        if(b%i==0){
+            return 0;
+        }
+        
+    }
+    return 1;
 }
 int main(){
     int n;
@@ -18,8 +21,10 @@ int main(){
     for(int i=1;i<=n;i++){
         
         scanf("%d",&b);
-        isprime(b);
+        int hello=isprime(b);
+        printf("The output is %d\n",hello);
     }
+
 
     return 0;
 }

@@ -19,7 +19,7 @@ int main(){
             smax=arr[i];
         }
     }
-    if(max!=smax){
+    if(max!=smax && smax!=-2147483648){
         printf("%d",smax);
     }
   

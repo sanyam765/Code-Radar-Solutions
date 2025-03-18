@@ -16,7 +16,12 @@ int main(){
             
             }
         }
+if(max%2==0){
 printf("%d",max);
+}
+else{
+    printf("-1");
+}
     }
     
         

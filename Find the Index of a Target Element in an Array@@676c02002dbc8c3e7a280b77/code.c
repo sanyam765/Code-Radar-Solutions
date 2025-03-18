@@ -8,7 +8,7 @@ int main(){
     }
     int T;
     scanf("%d",&T);
-    int idx = 0;
+    int idx;
     for(int i=0;i<n;i++){
         if(arr[i]==T){
             idx = i;

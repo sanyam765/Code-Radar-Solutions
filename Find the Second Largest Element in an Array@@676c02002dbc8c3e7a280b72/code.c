@@ -3,16 +3,8 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int con = 1;
     for(int i=0;i<n;i++){
-        scanf("%d ",&arr[i]);
-        
-    }
-    for(int i = 0; i<n;i++){
-        if(arr[i]!=arr[i+1] && i<n-1){
-            con = 0;
-            break;
-        }
+        scanf("%d",&arr[i]);
     }
     int max = arr[0];
     int smax = arr[0];
@@ -20,21 +12,11 @@ int main(){
         if(max<arr[i]){
             max = arr[i];
         }
-        
-    }
-    for(int i=0;i<n;i++){
-        if(arr[i]!=max && smax<arr[i]){
-            smax = arr[i];
+        else if(max!=smax && smax<arr[i]){
+            smax=arr[i];
         }
-    
     }
-    if(n == 1 || con == 1){
-        printf("-1");
-    }
-    else{
-    printf("%d",smax);}
-
-
+    printf("%d",smax);
 
 
 

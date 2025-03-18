@@ -19,6 +19,9 @@ int main(){
     if(idx<=n-1){
     printf("%d",idx);
     }
+    else{
+        printf("-1");
+    }
 
 
 

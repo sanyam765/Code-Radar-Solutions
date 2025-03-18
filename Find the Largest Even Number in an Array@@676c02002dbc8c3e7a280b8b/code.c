@@ -9,10 +9,9 @@ int main(){
     }
     int max = arr[0];
     for(int i=0;i<n;i++){
-        if( max<arr[i]){
-            if(max%2==0){
+        if( arr[i]%@==0){
             max = arr[i];
-            break;
+            
             }
         }
 

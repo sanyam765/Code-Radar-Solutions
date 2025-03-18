@@ -13,6 +13,10 @@ int main(){
             int maj = arr[i];
         }
         k++;
+        else{
+            printf("-1");
+            break;
+        }
     }
     printf("%d",maj);
     

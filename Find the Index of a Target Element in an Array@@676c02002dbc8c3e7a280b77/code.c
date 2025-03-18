@@ -14,12 +14,11 @@ int main(){
             idx = i;
             break;
         }
-        else{
-            idx = -1;
-            break;
-        }
+        
     }
+    if(idx<=n-1){
     printf("%d",idx);
+    }
 
 
 

@@ -12,10 +12,13 @@ int main(){
         if(max<arr[i]){
             max = arr[i];
         }
-        else if(max!=smax && smax<arr[i]){
+    }
+    for(int i=0;i<n;i++){
+        if(max!=arr[i] && smax<arr[i]){
             smax=arr[i];
         }
     }
+    
     printf("%d",smax);
 
 

@@ -12,11 +12,12 @@ int main(){
         if(arr[i]==arr[i+k]){
             int maj = arr[i];
         }
-        k++;
+        
         else{
             printf("-1");
             break;
         }
+        k++;
     }
     printf("%d",maj);
     

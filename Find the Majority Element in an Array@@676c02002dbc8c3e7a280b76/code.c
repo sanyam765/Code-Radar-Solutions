@@ -13,6 +13,9 @@ int main(){
         if(arr[i]==arr[i+k]){
             int maj = arr[i];
         }
+        else{
+            int maj = -1;
+        }
         k++;
         
         

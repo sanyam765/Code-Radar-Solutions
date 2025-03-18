@@ -14,11 +14,7 @@ int main(){
             int maj = arr[i];
         }
         k++;
-        if(arr[i]!=arr[i+j]){
-            printf("-1");
-            break;
-        }
-        j++;
+        
         
     }
     printf("%d",maj);

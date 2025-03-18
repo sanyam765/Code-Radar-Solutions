@@ -11,7 +11,6 @@ int digit = 0;
 for(int i=0;i<n;i++){
     digit = arr[i]%10;
     sum = sum + digit;
-    arr[i]= arr[i]/10;
     
 
 

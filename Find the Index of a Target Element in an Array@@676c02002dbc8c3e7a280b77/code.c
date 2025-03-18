@@ -14,6 +14,10 @@ int main(){
             idx = i;
             break;
         }
+        else{
+            idx = -1;
+            break;
+        }
     }
     printf("%d",idx);
 

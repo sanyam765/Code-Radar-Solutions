@@ -9,15 +9,17 @@ int main(){
     int maj = arr[0];
     for(int i=0;i<n;i++){
         int k = 1;
+        int j = 1;
         if(arr[i]==arr[i+k]){
             int maj = arr[i];
         }
-        
-        else{
+        k++;
+        if(arr[i]!=arr[i+j]){
             printf("-1");
             break;
         }
-        k++;
+        j++;
+        
     }
     printf("%d",maj);
     

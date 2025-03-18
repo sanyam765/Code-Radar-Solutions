@@ -9,11 +9,10 @@ int main(){
     int maj = arr[0];
     for(int i=0;i<n;i++){
         int k = 1;
-        int j = 1;
         if(arr[i]==arr[i+k]){
             int maj = arr[i];
         }
-        else{
+        else if(arr[i]!=arr[i+k]){
             int maj = -1;
         }
         k++;

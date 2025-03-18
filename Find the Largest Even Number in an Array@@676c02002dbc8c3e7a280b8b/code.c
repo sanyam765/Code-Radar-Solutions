@@ -14,12 +14,8 @@ int main(){
             
             }
         }
-
+printf("%d",max);
     }
-    {
-        printf("%d",max);
-    }
-    else{
-        printf("-1");
-    }
-}
+    
+        
+    

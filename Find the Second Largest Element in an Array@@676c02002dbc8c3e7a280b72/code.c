@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int max = arr[0];
-    int smax = -2147483648;
+    int smax = -2140;
     for(int i=0;i<n;i++){
         if(max<arr[i]){
             max = arr[i];
@@ -19,7 +19,7 @@ int main(){
             smax=arr[i];
         }
     }
-    if(max!=smax && smax!=-2147483648){
+    if(max!=smax && smax!=-2140){
         printf("%d",smax);
     }
   

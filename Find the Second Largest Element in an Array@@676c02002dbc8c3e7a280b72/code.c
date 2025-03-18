@@ -18,8 +18,9 @@ int main(){
             smax=arr[i];
         }
     }
-    
+    if(smax!=max){
     printf("%d",smax);
+    }
 
 
 

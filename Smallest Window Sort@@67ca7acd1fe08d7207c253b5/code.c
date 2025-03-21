@@ -12,7 +12,7 @@ int findUnsortedSubarray(int arr[],int n){
             arr[j]=arr[j+1];
             arr[j+1]= temp;
             swapped=1;
-            
+            count++;
         }
     }
        if(swapped==0){

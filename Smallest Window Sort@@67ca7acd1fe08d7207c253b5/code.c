@@ -11,11 +11,11 @@ int findUnsortedSubarray(int arr[],int n){
             swapped=1;
             count++;
         }
-       
-    }
-     if(swapped==0){
+       if(swapped==0){
             break;
-        }
+        }  
+    }
+   
             return count;
         
 }
